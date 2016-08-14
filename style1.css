@@ -1,0 +1,59 @@
+/** Global **/
+/* technique explained @ http://leftjustified.net/journal/2004/10/19/global-ws-reset/  */
+* {
+		margin: 0;
+		padding: 0;
+	}
+	h1, h2, h3, h4, h5, h6, p, pre, blockquote, label, ul, ol, dl, fieldset, address { margin:1em 5%; }
+	li, dd { margin-left:5%; }
+	fieldset { padding: .5em; }
+/* links */
+a {
+color: blue;
+}
+a:focus, a:hover, a:active, a:link {
+color: blue;
+}
+/** end global **/
+
+/* setting the base font size to 90% allows even scaling by the user while keeping font-size 'xx-small' legible */
+body {
+    background:#fff;
+	font-size:90%;
+	text-align: center;
+	font-family: Arial;
+}
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+div#main {
+	font-family: Arial;
+	text-align: left;
+}
+#loading {
+height: 35px;
+padding: 0;
+margin: 0;
+}
+#loading img {
+margin:0;
+margin-left: 25px;
+padding: 0;
+display: none;
+}
+ul#countyList {
+list-style: none;
+}
+ul#countyList li {
+padding: 5px;
+padding-left: 20px;
+background: url(yes.gif) 0 0 no-repeat;
+}
+
+#gmap {
+width: 400px;
+height: 400px;
+padding: 5px;
+margin: 5px;
+border: 1px solid #666;
+float: right;
+}
