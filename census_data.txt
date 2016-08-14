@@ -1,0 +1,89 @@
+-- 
+-- Table structure for table `fl_counties`
+-- 
+
+CREATE TABLE `fl_counties` (
+  `id` int(11) NOT NULL auto_increment,
+  `county` tinytext NOT NULL,
+  `2005` int(11) NOT NULL default '0',
+  `2004` int(11) NOT NULL default '0',
+  `2003` int(11) NOT NULL default '0',
+  `2002` int(11) NOT NULL default '0',
+  `2001` int(11) NOT NULL default '0',
+  `2000` int(11) NOT NULL default '0',
+  `growth` decimal(11,2) NOT NULL default '0.00',
+  PRIMARY KEY  (`id`)
+) TYPE=MyISAM AUTO_INCREMENT=68 ;
+
+-- 
+-- Dumping data for table `fl_counties`
+-- 
+
+INSERT INTO `fl_counties` VALUES (1, 'Alachua County', 223852, 222568, 221291, 220468, 218835, 218169, 2.60);
+INSERT INTO `fl_counties` VALUES (2, 'Baker County', 24569, 23946, 23413, 23226, 22659, 22390, 9.73);
+INSERT INTO `fl_counties` VALUES (3, 'Bay County', 161558, 157811, 154894, 152183, 149870, 148252, 8.97);
+INSERT INTO `fl_counties` VALUES (4, 'Bradford County', 28118, 27623, 26943, 26193, 25924, 26085, 7.79);
+INSERT INTO `fl_counties` VALUES (5, 'Brevard County', 531250, 518812, 505314, 495556, 486358, 477830, 11.17);
+INSERT INTO `fl_counties` VALUES (6, 'Broward County', 1777638, 1753000, 1728336, 1703998, 1670494, 1632662, 8.87);
+INSERT INTO `fl_counties` VALUES (7, 'Calhoun County', 13290, 13043, 12956, 12772, 12713, 13044, 1.88);
+INSERT INTO `fl_counties` VALUES (8, 'Charlotte County', 157536, 157324, 152777, 149854, 146202, 142289, 10.71);
+INSERT INTO `fl_counties` VALUES (9, 'Citrus County', 134370, 130273, 126613, 123690, 121281, 118656, 13.24);
+INSERT INTO `fl_counties` VALUES (10, 'Clay County', 171095, 164387, 157024, 151591, 145935, 141676, 20.76);
+INSERT INTO `fl_counties` VALUES (11, 'Collier County', 307242, 296675, 286055, 275692, 264365, 254099, 20.91);
+INSERT INTO `fl_counties` VALUES (12, 'Columbia County', 64040, 61710, 60224, 58438, 57510, 56760, 12.82);
+INSERT INTO `fl_counties` VALUES (13, 'DeSoto County', 35406, 34842, 33964, 32957, 32790, 32303, 9.60);
+INSERT INTO `fl_counties` VALUES (14, 'Dixie County', 14647, 14266, 13928, 13963, 13909, 13826, 5.93);
+INSERT INTO `fl_counties` VALUES (15, 'Duval County', 826436, 819623, 811531, 801793, 790485, 779689, 5.99);
+INSERT INTO `fl_counties` VALUES (16, 'Escambia County', 296772, 296739, 297596, 297539, 297224, 294345, 0.82);
+INSERT INTO `fl_counties` VALUES (17, 'Flagler County', 76410, 69016, 62685, 57706, 53701, 50581, 51.06);
+INSERT INTO `fl_counties` VALUES (18, 'Franklin County', 10177, 10084, 10074, 10013, 9899, 9839, 3.43);
+INSERT INTO `fl_counties` VALUES (19, 'Gadsden County', 46428, 46083, 45237, 45487, 45609, 45055, 3.04);
+INSERT INTO `fl_counties` VALUES (20, 'Gilchrist County', 16402, 15921, 15608, 15054, 14629, 14543, 12.78);
+INSERT INTO `fl_counties` VALUES (21, 'Glades County', 11252, 11146, 10998, 10931, 10796, 10606, 6.09);
+INSERT INTO `fl_counties` VALUES (22, 'Gulf County', 13975, 13703, 13570, 13180, 15707, 14602, -4.29);
+INSERT INTO `fl_counties` VALUES (23, 'Hamilton County', 13983, 14076, 13981, 13752, 13738, 13331, 4.89);
+INSERT INTO `fl_counties` VALUES (24, 'Hardee County', 28286, 28022, 27700, 27529, 26860, 26914, 5.09);
+INSERT INTO `fl_counties` VALUES (25, 'Hendry County', 39561, 38113, 37130, 36786, 36476, 36367, 8.78);
+INSERT INTO `fl_counties` VALUES (26, 'Hernando County', 158409, 150540, 143461, 138280, 134363, 131511, 20.45);
+INSERT INTO `fl_counties` VALUES (27, 'Highlands County', 95496, 93133, 90985, 90049, 88623, 87453, 9.19);
+INSERT INTO `fl_counties` VALUES (28, 'Hillsborough County', 1132152, 1100333, 1072745, 1050975, 1026149, 1003128, 12.86);
+INSERT INTO `fl_counties` VALUES (29, 'Holmes County', 19264, 19031, 19014, 18717, 18690, 18535, 3.93);
+INSERT INTO `fl_counties` VALUES (30, 'Indian River County', 128594, 124676, 120289, 117944, 115333, 113384, 13.41);
+INSERT INTO `fl_counties` VALUES (31, 'Jackson County', 48985, 47712, 46867, 46500, 46363, 46770, 4.73);
+INSERT INTO `fl_counties` VALUES (32, 'Jefferson County', 14490, 14392, 14041, 13766, 13407, 12921, 12.14);
+INSERT INTO `fl_counties` VALUES (33, 'Lafayette County', 7953, 7503, 7332, 7287, 7185, 7056, 12.71);
+INSERT INTO `fl_counties` VALUES (34, 'Lake County', 277035, 261845, 246802, 234937, 224165, 212843, 30.15);
+INSERT INTO `fl_counties` VALUES (35, 'Lee County', 544758, 514923, 492251, 475376, 459021, 443873, 22.72);
+INSERT INTO `fl_counties` VALUES (36, 'Leon County', 245756, 243703, 242692, 239701, 239181, 239958, 2.41);
+INSERT INTO `fl_counties` VALUES (37, 'Levy County', 37998, 37230, 36309, 35847, 35069, 34622, 9.75);
+INSERT INTO `fl_counties` VALUES (38, 'Liberty County', 7773, 7442, 7325, 7191, 7025, 6990, 11.20);
+INSERT INTO `fl_counties` VALUES (39, 'Madison County', 19092, 19067, 18795, 18698, 18846, 18746, 1.84);
+INSERT INTO `fl_counties` VALUES (40, 'Manatee County', 306779, 295974, 287272, 280148, 272315, 265713, 15.45);
+INSERT INTO `fl_counties` VALUES (41, 'Marion County', 303442, 291768, 280893, 272421, 265043, 260327, 16.56);
+INSERT INTO `fl_counties` VALUES (42, 'Martin County', 139728, 137693, 134999, 131768, 129209, 127118, 9.91);
+INSERT INTO `fl_counties` VALUES (43, 'Miami-Dade County', 2376014, 2358714, 2335739, 2314547, 2286731, 2260317, 5.11);
+INSERT INTO `fl_counties` VALUES (44, 'Monroe County', 76329, 78016, 78886, 79016, 79132, 79480, -3.96);
+INSERT INTO `fl_counties` VALUES (45, 'Nassau County', 64746, 63061, 61584, 60533, 59126, 57962, 11.70);
+INSERT INTO `fl_counties` VALUES (46, 'Okaloosa County', 182172, 180910, 177807, 175237, 171735, 170908, 6.59);
+INSERT INTO `fl_counties` VALUES (47, 'Okeechobee County', 39836, 39006, 37537, 36990, 36369, 35908, 10.93);
+INSERT INTO `fl_counties` VALUES (48, 'Orange County', 1023023, 989873, 963638, 944525, 925988, 902297, 13.37);
+INSERT INTO `fl_counties` VALUES (49, 'Osceola County', 231578, 220127, 206056, 194128, 183341, 174198, 32.93);
+INSERT INTO `fl_counties` VALUES (50, 'Palm Beach County', 1268548, 1244189, 1212269, 1187243, 1158587, 1135780, 11.68);
+INSERT INTO `fl_counties` VALUES (51, 'Pasco County', 429065, 408046, 388045, 372908, 359313, 347382, 23.51);
+INSERT INTO `fl_counties` VALUES (52, 'Pinellas County', 928032, 927498, 925566, 924448, 923570, 922257, 0.62);
+INSERT INTO `fl_counties` VALUES (53, 'Polk County', 542912, 524286, 510652, 499957, 491966, 485484, 11.82);
+INSERT INTO `fl_counties` VALUES (54, 'Putnam County', 73568, 72574, 71725, 71165, 70477, 70435, 4.44);
+INSERT INTO `fl_counties` VALUES (55, 'St Johns County', 161525, 152724, 142912, 136328, 130084, 124477, 29.76);
+INSERT INTO `fl_counties` VALUES (56, 'St Lucie County', 241305, 227110, 213963, 205285, 198171, 193482, 24.71);
+INSERT INTO `fl_counties` VALUES (57, 'Santa Rosa County', 143105, 138073, 132208, 127298, 121856, 118449, 20.81);
+INSERT INTO `fl_counties` VALUES (58, 'Sarasota County', 366256, 355722, 346704, 339933, 333287, 327032, 11.99);
+INSERT INTO `fl_counties` VALUES (59, 'Seminole County', 401619, 391241, 385245, 380902, 373298, 367050, 9.41);
+INSERT INTO `fl_counties` VALUES (60, 'Sumter County', 64182, 60569, 59226, 57750, 54825, 53589, 19.76);
+INSERT INTO `fl_counties` VALUES (61, 'Suwannee County', 38624, 37612, 36785, 36191, 35579, 35049, 10.20);
+INSERT INTO `fl_counties` VALUES (62, 'Taylor County', 19622, 19268, 19348, 19347, 19353, 19207, 2.16);
+INSERT INTO `fl_counties` VALUES (63, 'Union County', 14916, 14660, 13950, 13911, 13867, 13456, 10.85);
+INSERT INTO `fl_counties` VALUES (64, 'Volusia County', 490055, 478951, 467604, 459228, 451472, 445001, 10.12);
+INSERT INTO `fl_counties` VALUES (65, 'Wakulla County', 28212, 27074, 26051, 25177, 24205, 22993, 22.69);
+INSERT INTO `fl_counties` VALUES (66, 'Walton County', 50324, 48368, 46347, 44470, 42847, 40816, 23.29);
+INSERT INTO `fl_counties` VALUES (67, 'Washington County', 22299, 21987, 21608, 21387, 21430, 21017, 6.09);
+
